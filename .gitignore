@@ -1,0 +1,46 @@
+# ONNX Models & Assets
+*.onnx
+*.onnx_data
+android_assets/
+android/app/src/main/assets/model.onnx
+android/app/src/main/assets/vocab.txt
+
+# Python & Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ipynb_checkpoints/
+nb.ipynb_checkpoints/
+
+#additional stuff
+model_int8.onnx
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+vocab.txt
+added_tokens.json
+config.json
+
+# Android & Gradle
+.gradle/
+build/
+**/build/
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/.kotlin/
+android/local.properties
+android/captures/
+android/*.iml
+android/app/*.iml
+android/.externalNativeBuild/
+android/.cxx/
+
+# macOS
+.DS_Store
